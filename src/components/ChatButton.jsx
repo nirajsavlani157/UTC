@@ -1,3 +1,4 @@
+import ChatBot from "./Chatbot";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, X } from 'lucide-react';

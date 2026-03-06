@@ -1,34 +1,37 @@
-**Welcome to your Base44 project** 
 
-**About**
+🚀 UTC (Urban Trade Center) - E-commerce Platform
+A high-performance, modern e-commerce web application built from scratch to digitize my retail shop. This project focuses on speed, clean UI, and a seamless user experience.
 
+🛠 Tech Stack
+Frontend: React.js + Vite (for lightning-fast builds)
 
+Styling: Tailwind CSS + shadcn/ui (for professional, accessible components)
 
-This project contains everything you need to run your app locally.
+State Management: Context API (AuthContext) for secure user sessions
 
-**Edit the code in your local development environment**
+Tools: Axios for API communication, Lucide-React for iconography
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+✨ Key Features
+Responsive Storefront: Fully optimized for mobile, tablet, and desktop viewing.
 
-**Prerequisites:** 
+Dynamic Command Menu: Integrated a "Command + K" search interface for quick navigation.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+Secure Authentication: Custom-built Auth provider to handle user logins and permissions.
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+Optimized Performance: Leveraged Vite’s build toolchain to ensure sub-second page loads.
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.utc.app
-```
+Custom SDK Integration: Seamlessly connected to backend services using a modular SDK architecture.
 
-Run the app: `npm run dev`
+🧠 Engineering Knowledge Applied
+Component-Driven Development: Built a reusable UI library following atomic design principles.
 
-**Publish your changes**
+Local Environment Architecture: Configured custom host mapping (utc.com) and port handling for a professional local development workflow.
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+API Proxying: Managed environment variables and proxies to handle cross-origin resource sharing (CORS).
+
+Shell Scripting: Utilized advanced terminal commands (sed, grep, xargs) for large-scale codebase refactoring and configuration management.
+
+📸 Preview
+<img width="1468" height="878" alt="Screenshot 2026-03-06 at 11 44 21 PM" src="https://github.com/user-attachments/assets/7ec0bd39-2e48-46f2-b62c-9c46c45b0808" />
+<img width="1470" height="870" alt="Screenshot 2026-03-06 at 11 44 50 PM" src="https://github.com/user-attachments/assets/2f892cc5-0c26-402b-a3f3-2fc2a898be05" /><img width="1431" height="816" alt="Screenshot 2026-03-06 at 11 45 13 PM" src="https://github.com/user-attachments/assets/47e4c6cb-15e4-4d0e-8224-1a8d75f33609" />
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, X } from 'lucide-react';
-import ChatBot from '@/components/ChatBot';
+import Chatbot from '@/components/Chatbot';
 
 export default function ChatButton() {
   const [isChatOpen, setIsChatOpen] = useState(false);

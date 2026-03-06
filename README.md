@@ -1,5 +1,5 @@
 
-🚀 UTC (Urban Trade Center) - E-commerce Platform
+🚀 UTC (Umesh Trading co.) - E-commerce Platform
 A high-performance, modern e-commerce web application built from scratch to digitize my retail shop. This project focuses on speed, clean UI, and a seamless user experience.
 
 🛠 Tech Stack

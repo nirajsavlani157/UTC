@@ -1,0 +1,50 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "price": {
+      "type": "number",
+      "description": "Product price"
+    },
+    "image": {
+      "type": "string",
+      "description": "Product image URL"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "meal-trays",
+        "food-containers",
+        "bagasse-products",
+        "aluminium-containers",
+        "paper-products",
+        "eco-friendly",
+        "shakes-mocktail",
+        "print-customization"
+      ],
+      "description": "Product category"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "capacity": {
+      "type": "string",
+      "description": "Product capacity/size"
+    },
+    "is_bestseller": {
+      "type": "boolean",
+      "default": false,
+      "description": "Is this a bestseller product"
+    }
+  },
+  "required": [
+    "name",
+    "price",
+    "category"
+  ]
+}

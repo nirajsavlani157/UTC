@@ -1,0 +1,26 @@
+{
+  "name": "Collection",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Collection name"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug"
+    },
+    "image": {
+      "type": "string",
+      "description": "Collection image URL"
+    },
+    "description": {
+      "type": "string",
+      "description": "Collection description"
+    }
+  },
+  "required": [
+    "name",
+    "slug"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "order_number": {
+      "type": "string",
+      "description": "Unique order number"
+    },
+    "customer_name": {
+      "type": "string",
+      "description": "Customer name"
+    },
+    "customer_email": {
+      "type": "string",
+      "description": "Customer email"
+    },
+    "customer_phone": {
+      "type": "string",
+      "description": "Customer phone"
+    },
+    "shipping_address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "postal_code": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "description": "Order items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "number"
+          },
+          "price": {
+            "type": "number"
+          },
+          "image": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "subtotal": {
+      "type": "number",
+      "description": "Order subtotal"
+    },
+    "shipping_cost": {
+      "type": "number",
+      "default": 0
+    },
+    "total": {
+      "type": "number",
+      "description": "Order total"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processing",
+        "shipped",
+        "delivered",
+        "cancelled"
+      ],
+      "default": "pending"
+    },
+    "payment_method": {
+      "type": "string",
+      "enum": [
+        "card",
+        "upi",
+        "net_banking",
+        "cod"
+      ],
+      "description": "Payment method"
+    },
+    "payment_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "paid",
+        "failed",
+        "refunded"
+      ],
+      "default": "pending"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Order notes"
+    }
+  },
+  "required": [
+    "customer_email",
+    "items",
+    "total"
+  ]
+}

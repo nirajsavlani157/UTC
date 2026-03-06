@@ -1,0 +1,27 @@
+{
+  "name": "SiteSettings",
+  "type": "object",
+  "properties": {
+    "setting_key": {
+      "type": "string",
+      "description": "Unique setting identifier"
+    },
+    "setting_value": {
+      "type": "string",
+      "description": "Setting value"
+    },
+    "setting_type": {
+      "type": "string",
+      "enum": [
+        "social",
+        "contact",
+        "general"
+      ],
+      "description": "Type of setting"
+    }
+  },
+  "required": [
+    "setting_key",
+    "setting_value"
+  ]
+}
